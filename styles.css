@@ -146,3 +146,12 @@ button:hover{
     height: auto;
 }
 
+.emotmin{
+    width: 28px;
+    height: auto;
+}
+.emotmax{
+    width: 112px;
+    height: auto;
+}
+
