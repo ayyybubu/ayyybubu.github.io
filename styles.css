@@ -4,7 +4,9 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color: #24252A;
+}
+body{
+    background-color: #0d0d0e;
 }
 
 li, a, button {
@@ -16,9 +18,9 @@ li, a, button {
 }    
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 30px 20rem;
+    padding: 30px 20%;
 }
 
 .logo {
@@ -79,13 +81,11 @@ header {
 button:hover{
     background-color: rgba(0,136, 169,0.8);
 }
-.project-logo{
+.project-logo,.project-info{
     display: inline-flex;
     
 }
-.project-info{
-    display: inline-flex;
-}
+
 .divider {
     height: 35px;
     width: 2px;
@@ -93,3 +93,56 @@ button:hover{
     border-radius: 99px;
     margin: 0 20px;
   }
+
+  h1{
+      text-align: center;
+      padding-top: 5%;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+/* From https://css.glass */
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.3px);
+    -webkit-backdrop-filter: blur(16.3px);
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.65) transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.bitmin{
+    width: 18px;
+    height: auto;
+}
+.bitmax{
+    width: 72px;
+    height: auto;
+}
+
