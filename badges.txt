@@ -1,3 +1,4 @@
+<script>ScrollReveal().reveal('.media');</script>
  <br>
 
     <div class="tooltip"><img class="bitmin" src="assets/b19.png">
