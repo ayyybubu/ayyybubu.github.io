@@ -42,3 +42,7 @@ function myFunction() {
     xhttp.open("GET", "contact.txt", true);
     xhttp.send();
   }
+
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger : 'hover'
+})    
