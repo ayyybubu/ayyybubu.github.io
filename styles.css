@@ -7,16 +7,9 @@ padding: 0;
 
 }
 body{
-
-    background-color:hsla(0,5%,2%,1);
-    background-image:
-    radial-gradient(at 67% 57%, hsla(0,5%,2%,1) 0px, transparent 50%),
-    radial-gradient(at 33% 63%, hsla(0,5%,2%,1) 0px, transparent 50%),
-    radial-gradient(at 55% 100%, hsla(328,94%,39%,0.16) 0px, transparent 50%),
-    radial-gradient(at 56% 57%, hsla(0,5%,2%,1) 0px, transparent 50%),
-    radial-gradient(at 57% 74%, hsla(240,95%,19%,0.38) 0px, transparent 50%);
+    background-color:rgb(8, 8, 8)
 }
-html,body { min-height:100%; }
+/*html,body { min-height:100%; }*/
 
 li, a, button, h1 {
     font-family: "Montserrat", sans-serif;
