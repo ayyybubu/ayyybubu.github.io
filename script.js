@@ -43,10 +43,3 @@ function myFunction() {
     xhttp.send();
   }
 
-  $('body').click(function(event){
-    if (event.target.id != 'tooltip'){
-        setTimeout(function(){
-            $('#tooltip').tooltip('hide');
-        }, 2000);
-    }
-});
