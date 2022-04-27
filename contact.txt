@@ -1,0 +1,11 @@
+<div class="project-links">
+
+<div class="tooltip">
+  <a href="#" onclick="myFunction()" onmouseout="outFunc()"><i class="fab fa-discord"></i></a>
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  </div>
+  <br>
+  ayyybubu#4050
+  <br><br>
+  <a href="https://twitter.com/ayyybubu" title="Twitter"><i class="fab fa-twitter"></i></a>
+  <br>ayyybubu

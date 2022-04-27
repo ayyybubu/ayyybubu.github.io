@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/3e1d325ee2.js" crossorigin="anonymous"></script> 
-        <script src="/script.js"></script>
-    </head>
-    <body>
-      <div class="container">
 
-<header>
-
-    <div class="project-logo">
-    <img class="logo" src="assets/logo.svg" alt="logo"> 
-    
-   
-    <div class="divider">
-    </div>
-    <ul class="nav_links">
-
-
-      <li><a href="#" onclick="loadEmotes()">Emotes</a></li>
-      <li><a href="#" onclick="loadBadges()">Badges</a></li>
-      <li><a href="#">Projects</a></li>
-        </ul>       
-   </div>
-   
-
-    <div class="project-links">
-      <a href="#" onclick="loadContact()" title="Contact" ><i class="fas fa-inbox" ></i></a>
-    </div>
-</div>
-
-
-</header>
-<h1 id="demo">
   <br>
   <div class="tooltip"><img class="emotmin" src="assets/a4.gif">
     <span class="tooltiptext"><span><img class="emotmax" src="assets/a4.gif">Channel: NymN</span></span>
@@ -198,9 +158,3 @@
         <a href="#" onclick="loadContact()" title="Contact"><button class="button button2">Commissions</button></a>
 </h1>
 </div>
-<footer>
-  
-</footer>
-
-    </body>
-</html>
