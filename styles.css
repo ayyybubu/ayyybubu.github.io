@@ -156,10 +156,11 @@ padding: 2%;
     border-color: rgba(0, 0, 0, 0.65) transparent transparent transparent;
   }
   
-  .tooltip:hover .tooltiptext {
+  @media (hover: hover) { 
+    .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
+  }
 
 .bitmin{
     width: 36px;
