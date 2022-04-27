@@ -7,18 +7,16 @@ padding: 0;
 
 }
 body{
-    background-color: #0d0d0e;
-    /*
-    background-color:hsla(240,0%,1%,1);
+
+    background-color:hsla(0,5%,2%,1);
     background-image:
-    radial-gradient(at 48% 25%, hsla(240,96%,12%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 0%, hsla(240,95%,15%,1) 0px, transparent 50%),
-    radial-gradient(at 1% 62%, hsla(320,100%,14%,1) 0px, transparent 50%),
-    radial-gradient(at 53% 62%, hsla(246,95%,19%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(328,99%,39%,1) 0px, transparent 50%),
-    radial-gradient(at 87% 77%, hsla(240,100%,2%,1) 0px, transparent 50%);
-    */
+    radial-gradient(at 67% 57%, hsla(0,5%,2%,1) 0px, transparent 50%),
+    radial-gradient(at 33% 63%, hsla(0,5%,2%,1) 0px, transparent 50%),
+    radial-gradient(at 55% 100%, hsla(328,94%,39%,0.16) 0px, transparent 50%),
+    radial-gradient(at 56% 57%, hsla(0,5%,2%,1) 0px, transparent 50%),
+    radial-gradient(at 57% 74%, hsla(240,95%,19%,0.38) 0px, transparent 50%);
 }
+html,body { min-height:100%; }
 
 li, a, button, h1 {
     font-family: "Montserrat", sans-serif;
