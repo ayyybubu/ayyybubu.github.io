@@ -96,7 +96,6 @@ padding: 2%;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-
 button:hover{
     background-color: rgba(0,136, 169,0.8);
 }

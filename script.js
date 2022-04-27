@@ -42,4 +42,3 @@ function myFunction() {
     xhttp.open("GET", "contact.txt", true);
     xhttp.send();
   }
-
