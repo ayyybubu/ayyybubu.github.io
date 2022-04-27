@@ -131,7 +131,7 @@
         <span class="tooltiptext"><span><img class="bitmax" src="assets/b47.png"></span></span>
       </div>
       <div class="tooltip"><img class="bitmin" src="assets/b48.png">
-        <span class="tooltiptext"><span><img class="bitmax" src="assets/48.png"></span></span>
+        <span class="tooltiptext"><span><img class="bitmax" src="assets/b48.png"></span></span>
       </div>
       <div class="tooltip"><img class="bitmin" src="assets/b49.png">
         <span class="tooltiptext"><span><img class="bitmax" src="assets/b49.png"></span></span>
