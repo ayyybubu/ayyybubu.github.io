@@ -19,6 +19,7 @@ function myFunction() {
     };
     xhttp.open("GET", "badges.txt", true);
     xhttp.send();
+    window.sr = new scrollReveal();
   }
 
   function loadEmotes() {
@@ -41,6 +42,7 @@ function myFunction() {
     };
     xhttp.open("GET", "contact.txt", true);
     xhttp.send();
+    window.sr = new scrollReveal();
   }
 
   

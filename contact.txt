@@ -1,5 +1,6 @@
 <div class="project-links">
-
+<p class="contact-title">Contact me on</p>
+<br>
 <div class="tooltip">
   <a href="#" onclick="myFunction()" onmouseout="outFunc()"><i class="fab fa-discord"></i></a>
   <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
